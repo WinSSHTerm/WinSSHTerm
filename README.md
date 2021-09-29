@@ -1,5 +1,10 @@
 ### Changelog
 
+2.17.0
+* Copy Files: New option to use WinSCP's native tunneling feature (File->Preferences->Copy Files->Global Settings)
+* Copy Files: By default, WinSCP's option to "Optimize connection buffer size" is now disabled
+* Connection groups are now listed in the "Cons" menu
+
 2.16.0
 * Re-attaching the terminal window now possible (new Option under File->Preferences->General)
 * Cluster Mode: new option to set another SSH user (Cluster Mode->Open as user)
