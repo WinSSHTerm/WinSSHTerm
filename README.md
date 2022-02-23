@@ -1,4 +1,6 @@
 ### Changelog
+2.18.0
+* Multi-Input Scripts: Added possibility to search scripts
 
 2.17.0
 * Copy Files: New option to use WinSCP's native tunneling feature (File->Preferences->Copy Files->Global Settings)
