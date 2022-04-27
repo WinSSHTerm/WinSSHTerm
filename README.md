@@ -1,6 +1,7 @@
 ### Changelog
 2.19.1
 * Bug fix: Fixed some focus issues
+* Script Runner: Output CustomId if not empty
 
 2.19.0
 * new feature "WSL Starter": Easy access to WSL on Windows (Tools->WSL Starter)
