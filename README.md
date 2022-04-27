@@ -1,4 +1,7 @@
 ### Changelog
+2.19.1
+* Bug fix: Fixed some focus issues
+
 2.19.0
 * new feature "WSL Starter": Easy access to WSL on Windows (Tools->WSL Starter)
 * Bug fix: Now correctly restoring the window in some cases with multiple monitors
