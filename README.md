@@ -1,4 +1,16 @@
 ### Changelog
+2.20.0
+* New feature "Connection Filter": Filter connections quickly with include and/or exclude patterns (Navigate->Connection Filter)
+* Script Runner/Cluster Mode: New button "Con filter" to quickly access the new feature "Connection Filter"
+* Script Runner/Cluster Mode: CTRL+A selects all connections
+* Cluster Mode: New option to add a connection or all connections inside a folder from the Connections window (Right Click->Add to Cluster Mode)
+* Cluster Mode: Remember the column count, default is 2
+* Holding "SHIFT" and opening a connection will open the connection in the next window
+* PuTTY option "Change Settings..." now available in the tab context menu, which lets you change settings like font size while the session remains active
+* Disabled editing the connection name by clicking on it (still possible with F2 or "Right click"->Rename)
+* Info Dialog: New section for Windows, added UBR to the build number for Windows
+* Bug fix: Focus issue when clicking on the title bar and then on a menu item
+
 2.19.1
 * Bug fix: Fixed some focus issues
 * Script Runner: Output CustomId if not empty
