@@ -1,4 +1,9 @@
 ### Changelog
+2.20.1
+* Bug fix: Quick Connect: Open connection with "Enter" key
+* Bug fix: Connection Filter: Search for Pattern Groups now functional
+* Bug fix: Connection Filter: Tab order improved
+
 2.20.0
 * New feature "Connection Filter": Filter connections quickly with include and/or exclude patterns (Navigate->Connection Filter)
 * Script Runner/Cluster Mode: New button "Con filter" to quickly access the new feature "Connection Filter"
