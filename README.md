@@ -1,4 +1,18 @@
 ### Changelog
+2.21.0
+* New feature: Toggle Full Screen for the current session with ALTGR+ENTER
+* Bug Fix: Alt-Tab: Needs to press tab twice
+* Bug Fix: Detaching the terminal when using multiple monitors always detaches on the primary monitor
+* Search, History, QuickConnect: These windows won't get closed when WinSSHTerm looses focus
+* Tab context menu: Compacted PuTTY menu items into a sub menu / New menu item "Toggle Full Screen"
+* WSL Starter: Autostart SSH server will now be triggered on demand, when opening a WSL connection
+* WSL Starter: For a WSL connection, it is now sufficient to set the host and port
+* Color Scheme: Default color scheme now "WinSSHTerm light" / Adjusted color scheme "WinSSHTerm light"
+* Color Scheme: New button to set the default light tab color (used in "WinSSHTerm light")
+* Color Scheme: Default background color now equal to "Tab Color" if "Custom Tab layout" is enabled
+* new unsupported warning if an architecture mismatch was detected (Popup, Title Bar)
+* new built-in variable CON.PASSWD to access the SSH password (see point 26 in the FAQ section)
+
 2.20.1
 * Bug fix: Quick Connect: Open connection with "Enter" key
 * Bug fix: Connection Filter: Search for Pattern Groups now functional
