@@ -7,7 +7,7 @@
 * Multi-Input Scripts: Bug fix: Remember current script text when closing
 * Copy Files: Bug fix: Pop-up when Plink is not installed
 * Rename Tab: Bug fix when moving tab to another window
-* Quick connect: Bug fix: Raplace variables in tab title
+* Quick connect: Bug fix: Replace variables in tab title
 * Removed support for KiTTY
 * Added URL to the support forum (Help->Support)
 
