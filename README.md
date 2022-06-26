@@ -1,4 +1,16 @@
 ### Changelog
+2.22.0
+* Jump Server: Implemented the new PuTTY feature "SSH Proxy" (>= 0.77)
+* WSL Starter: Several bug fixes, WSL variables can now be used in the connection configuration
+* Info dialog: Version check added
+* Color Scheme: Improvements to the default color scheme "WinSSHTerm light"
+* Multi-Input Scripts: Bug fix: Remember current script text when closing
+* Copy Files: Bug fix: Pop-up when Plink is not installed
+* Rename Tab: Bug fix when moving tab to another window
+* Quick connect: Bug fix: Raplace variables in tab title
+* Removed support for KiTTY
+* Added URL to the support forum (Help->Support)
+
 2.21.0
 * New feature: Toggle Full Screen for the current session with ALTGR+ENTER
 * Bug Fix: Alt-Tab: Needs to press tab twice
