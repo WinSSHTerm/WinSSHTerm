@@ -1,4 +1,10 @@
 ### Changelog
+2.23.0
+* PuTTY: Replaced command line option "-pw" with the new and more secure option "-pwfile", so if passwords are used for authentication, it is required to use PuTTY/Plink 0.77 or higher
+* Improvement: WinSSHTerm could freeze in some cases
+* Bug fix: In some cases it was not possible to delete the file "lib\WinSSHTerm.dll"
+* Bug fix: When selecting "Display context menu" as copy&paste behaviour for the terminal, right clicking in a terminal window the first time would close the context menu 
+
 2.22.0
 * Jump Server: Implemented the new PuTTY feature "SSH Proxy" (>= 0.77)
 * WSL Starter: Several bug fixes, WSL variables can now be used in the connection configuration
