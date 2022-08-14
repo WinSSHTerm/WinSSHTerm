@@ -1,4 +1,8 @@
 ### Changelog
+2.23.1
+* SECURITY FIX: In version 2.23.0, temporary files are used for PuTTY's new command line option "-pwfile". In some cases these temporary files did not get deleted, that means files containing the password might be inside your temporary folder. So be sure to delete your temporary files folder (probably "C:\Users\<USER>\AppData\Local\Temp\") if you use passwords to authenticate for your ssh sessions. Instead of using temporary files, now in version 2.23.1 shared memmory is used. All password files will be deleted after they got read by PuTTY/Plink. Additionally, only when PuTTY will read the password file, the password is actually written. If you don't use passwords for ssh authentication, you are not affected by this issue.
+* Bug Fix: WinSSHTerm not exiting properly in some cases when the features "Script Runner" or "Check Access" was used
+
 2.23.0
 * PuTTY: Replaced command line option "-pw" with the new and more secure option "-pwfile", so if passwords are used for authentication, it is required to use PuTTY/Plink 0.77 or higher
 * Improvement: WinSSHTerm could freeze in some cases
