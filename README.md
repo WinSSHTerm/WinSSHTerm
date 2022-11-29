@@ -1,4 +1,7 @@
 ### Changelog
+2.23.3
+* Bug fix: Focus issues when "Multi-Input" was not enabled (thanks to mxmihai)
+
 2.23.2
 * Bug fix: Setting the password command line option for PuTTY/Plink/WinSCP even if password is empty
 * Bug fix: Minor focus issues
