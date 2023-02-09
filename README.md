@@ -1,4 +1,9 @@
 ### Changelog
+2.24.0
+* New option to append custom command line parameters for Pageant, useful e.g. when using PuTTY CAC (File->Prefernces->Pageant)
+* Bug fix: Ignored private key file when using Jump Server mode "SSH Proxy"
+* Bug fix: Possible race condition in Script Runner
+
 2.23.3
 * Bug fix: Focus issues when "Multi-Input" was not enabled (thanks to mxmihai)
 
