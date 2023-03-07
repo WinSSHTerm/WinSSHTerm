@@ -1,4 +1,11 @@
 ### Changelog
+2.25.0
+* Native arm64 build for Windows on Arm now available
+* Dropped support for x86 (32-bit)
+* Improved implementation makes the Dll "lib/WinSSHTerm.dll" now obsolete
+* Configuration Window: Tab key now moves to the next property
+* Build environment: Upgrade to Visual Studio 2022
+
 2.24.0
 * New option to append custom command line parameters for Pageant, useful e.g. when using PuTTY CAC (File->Prefernces->Pageant)
 * Bug fix: Ignored private key file when using Jump Server mode "SSH Proxy" (thanks to drizzt09)
