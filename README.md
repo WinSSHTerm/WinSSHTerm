@@ -1,4 +1,7 @@
 ### Changelog
+2.25.1
+* Bug fix: "Reconnect gracefully" doesn't work when using Jump Server mode "SSH Proxy"
+
 2.25.0
 * Native arm64 build for Windows on Arm now available
 * Dropped support for x86 (32-bit)
