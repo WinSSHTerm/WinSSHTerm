@@ -1,4 +1,10 @@
 ### Changelog
+2.25.2
+* Bug fix: "Reconnect gracefully" terminates the PuTTY window when using Jump Server mode "SSH Proxy" and the proxy host is not reachable
+* Bug fix: Fixed architecture detection for Windows under Help->Info
+* Bug fix: Variables did not get properly replaced when using WSL Starter
+* MSI installer: Changed default install scope to "user" (see point 30 in the FAQ section)
+
 2.25.1
 * Bug fix: "Reconnect gracefully" doesn't work when using Jump Server mode "SSH Proxy"
 
