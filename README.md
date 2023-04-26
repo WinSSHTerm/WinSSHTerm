@@ -1,4 +1,10 @@
 ### Changelog
+2.26.0
+* Configuration: Backup to and restore from file
+* Cluster Mode: New option to adjust Multi-Input selection for a whole row/column
+* Configuration: New option "Tab Prefix" for each folder
+* Connection Groups: New option to prevent closing all connections
+
 2.25.2
 * Bug fix: "Reconnect gracefully" terminates the PuTTY window when using Jump Server mode "SSH Proxy" and the proxy host is not reachable
 * Bug fix: Fixed architecture detection for Windows under Help->Info
