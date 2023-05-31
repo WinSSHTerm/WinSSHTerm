@@ -1,4 +1,9 @@
 ### Changelog
+2.26.1
+* Scroll bar now enabled in full-screen mode
+* Added a search button in the connections window
+* Fixed some focus issues
+
 2.26.0
 * Configuration: Backup to and restore from file
 * Cluster Mode: New option to adjust Multi-Input selection for a whole row/column
