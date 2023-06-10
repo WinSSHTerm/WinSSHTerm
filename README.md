@@ -1,4 +1,9 @@
 ### Changelog
+2.27.0
+* Security fix: WinSCP's process arguments don't contain plain text passwords any longer. It is required to use WinSCP 6.0.0 or higher.
+* New option "File->Preferences->Terminal->Close window": The terminal window now doesn't close on exit by default to prevent loss of the scroll history. To restore the old behavior set the option to "on clean exit" (thanks to Phil)
+* New shortcut ALTGR+R which triggers a graceful reconnection for the current selected tab
+
 2.26.1
 * Scroll bar now enabled in full-screen mode
 * Added a search button in the connections window
