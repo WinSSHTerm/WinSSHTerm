@@ -1,4 +1,8 @@
 ### Changelog
+2.28.0
+* Shared connections: Added support for HTTP basic authentication, see File->Preferences->Connections->Options (thanks to Kvadric)
+* Code clean-up: Removed code which handled upgrading from ancient versions (prior to 1.11.0)
+
 2.27.1
 * Bug fix: Shared Connections: Tab Prefix now correctly handled
 * Bug fix: Copy files: Process arguments for WinSCP now correctly handled
