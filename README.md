@@ -1,4 +1,7 @@
 ### Changelog
+2.29.1
+* Bug fix: Loading custom sftp port into field "Log Level"
+
 2.29.0
 * Copy files: New option to set a custom port for protocol "sftp" (Copy Files->Port (sftp))
 
