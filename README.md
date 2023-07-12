@@ -1,4 +1,7 @@
 ### Changelog
+2.29.0
+* Copy files: New option to set a custom port for protocol "sftp" (Copy Files->Port (sftp))
+
 2.28.0
 * Shared connections: Added support for HTTP basic authentication, see File->Preferences->Connections->Options (thanks to Kvadric)
 * Code clean-up: Removed code which handled upgrading from ancient versions (prior to 1.11.0)
