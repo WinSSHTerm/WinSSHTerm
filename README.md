@@ -1,4 +1,8 @@
 ### Changelog
+2.30.0
+* Environment Color: New mode draws border around the terminal instead of changing the background color. The old behaviour can be restored by selecting "File->Preferences->Environment Color Mode->change background color"
+* Environment Color: The color is now also visible in the tab title
+
 2.29.1
 * Bug fix: Loading custom sftp port into field "Log Level"
 
