@@ -9,4 +9,4 @@ Open RDP/VNC/HTTP sessions and more with [Launch Tools](https://github.com/WinSS
 
 **NEW:** Use [PuTTY-WST](https://github.com/WinSSHTerm/PuTTY-WST) that has a scroll behaviour similar to Windows Terminal
 
-[![Downloads](https://img.shields.io/github/downloads/WinSSHTerm/WinSSHTerm/total.svg?style=for-the-badge&logo=github)](https://github.com/WinSSHTerm/WinSSHTerm/releases)
+[![Downloads](https://img.shields.io/github/downloads/WinSSHTerm/WinSSHTerm/total?style=for-the-badge&logo=github)](https://github.com/WinSSHTerm/WinSSHTerm/releases)
